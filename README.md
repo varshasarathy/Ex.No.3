@@ -1,8 +1,9 @@
 # Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 
-### DATE:                                                                            
-### REGISTER NUMBER : 
-### Aim: To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts. Case study 1 with Straightforward Prompts, Tabular Format Prompting and Preceding Question Prompting  
+### DATE: 03-09-2025                                                                      
+### REGISTER NUMBER : 212223230201
+### Aim: 
+To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts. Case study 1 with Straightforward Prompts, Tabular Format Prompting and Preceding Question Prompting  
 
 ### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
 Procedure:
@@ -35,11 +36,28 @@ Persona and Context Prompts:
 •	The user interface should be intuitive and provide real-time data on machine performance, energy usage, and alerts.
 •	The system should convey reliability and ease of use, with minimal training required for operators.
 
+### Prompt:
+Food Menu Nutritional Chart Dish name, ingredients, calories, protein, fat, and allergen info structured for easy reading
+
+### Output:
+
+Here’s a sample **Food Menu Nutritional Chart** structured for clarity and quick reference. Each dish includes ingredients, calorie count, macronutrients, and allergen information:
+
+<img width="2886" height="2646" alt="img" src="https://github.com/user-attachments/assets/bb3bac09-87e7-4115-9daa-92c0c3e08116" />
+
+<img width="5094" height="1404" alt="img" src="https://github.com/user-attachments/assets/0b2a98f3-9ff4-46b9-a1eb-a190841b699b" />
+
+<img width="1710" height="3402" alt="img" src="https://github.com/user-attachments/assets/aaca3761-1df1-46d1-8cbd-db32ca83f8ac" />
+
+<img width="2736" height="2916" alt="img" src="https://github.com/user-attachments/assets/f99796d1-90f1-4f1f-9ba7-8071dfff223c" />
+
+
 ### Conclusion
 Result: The various types of Prompts are executed successfully with generated the report.
 
 
 
 
-# Result: Thus the Prompts were exected succcessfully.
+# Result: 
+Thus the Prompts were exected succcessfully.
 
