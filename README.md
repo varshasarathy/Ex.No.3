@@ -1,9 +1,9 @@
-# Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+# Ex.No.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques for the the following Prompt Engineering types with examples - Straightforward Prompts - Tabular Format Prompting - Missing Word Prompting - Preceding Question Prompting.
 
-### DATE: 03-09-2025                                                                      
-### REGISTER NUMBER : 212223230201
-### Aim: 
-To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts. Case study 1 with Straightforward Prompts, Tabular Format Prompting and Preceding Question Prompting  
+### DATE: 26/11/2026                                                                    
+### REGISTER NUMBER : 212223040233
+### NAME : VARSHA SARATHI
+### Aim: To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts. Case study 1 with Straightforward Prompts, Tabular Format Prompting and Preceding Question Prompting  
 
 ### Explanation - Any one use case from Unit 5 and generate the report for that with the unit 2 Prompt type
 Procedure:
@@ -36,28 +36,80 @@ Persona and Context Prompts:
 •	The user interface should be intuitive and provide real-time data on machine performance, energy usage, and alerts.
 •	The system should convey reliability and ease of use, with minimal training required for operators.
 
-### Prompt:
-Food Menu Nutritional Chart Dish name, ingredients, calories, protein, fat, and allergen info structured for easy reading
+### Output
+### **Objective**
 
-### Output:
+To design a customer support chatbot that can handle **product troubleshooting**, **order tracking**, and **general inquiries** by experimenting with different **prompting patterns**.
 
-Here’s a sample **Food Menu Nutritional Chart** structured for clarity and quick reference. Each dish includes ingredients, calorie count, macronutrients, and allergen information:
+## **1. Straightforward Prompts**
 
-<img width="2886" height="2646" alt="img" src="https://github.com/user-attachments/assets/bb3bac09-87e7-4115-9daa-92c0c3e08116" />
+* **Definition:** Direct, simple instructions given to the AI without extra context.
+* **Use Case:** Quick and specific customer queries.
 
-<img width="5094" height="1404" alt="img" src="https://github.com/user-attachments/assets/0b2a98f3-9ff4-46b9-a1eb-a190841b699b" />
+**Example Interaction:**
 
-<img width="1710" height="3402" alt="img" src="https://github.com/user-attachments/assets/aaca3761-1df1-46d1-8cbd-db32ca83f8ac" />
+* **Customer:** “Track my order 45678.”
+* **Bot (Prompt):** *"Provide order tracking details for order ID 45678 in a friendly conversational tone."*
+* **Bot (Response):** “Your order #45678 is currently in transit and expected to be delivered by Tuesday.”
 
-<img width="2736" height="2916" alt="img" src="https://github.com/user-attachments/assets/f99796d1-90f1-4f1f-9ba7-8071dfff223c" />
+✅ Advantage: Fast and efficient for task-oriented queries.
+❌ Limitation: Lacks personalization or context-awareness.
+## **2. Tabular Format Prompting**
+
+* **Definition:** Structuring the response in a table for clarity.
+* **Use Case:** When customers need **multiple details** at once (e.g., troubleshooting steps, product specifications, order status breakdown).
+
+**Example Interaction:**
+
+* **Customer:** “My phone won’t charge. Can you help?”
+* **Bot (Prompt):** *"Provide troubleshooting steps for phone charging issues in a table format with columns: Problem, Possible Cause, and Solution."*
+
+**Bot (Response in table format):**
+
+| Problem                      | Possible Cause          | Solution                                       |
+| ---------------------------- | ----------------------- | ---------------------------------------------- |
+| Phone not charging           | Faulty cable or adapter | Try using a different cable and adapter        |
+| Phone heats up when charging | Dirt in charging port   | Clean the charging port carefully              |
+| Charging very slow           | Too many apps running   | Close background apps and enable airplane mode |
+
+✅ Advantage: Clear, structured, easy to scan.
+❌ Limitation: Less conversational, more technical.
+## **3. Preceding Question Prompting**
+
+* **Definition:** The bot first asks clarifying questions before giving a final response.
+* **Use Case:** When queries are vague or need more details.
+
+**Example Interaction:**
+
+* **Customer:** “I have an issue with my laptop.”
+* **Bot (Prompting Style):**
+
+  * Bot: “Can you tell me what kind of issue you’re facing? Is it related to charging, performance, or software?”
+  * Customer: “It shuts down randomly.”
+  * Bot: “Got it! Do you notice this happening when the laptop is unplugged, or even while charging?”
+  * Customer: “Only when unplugged.”
+  * Bot: “Thanks for clarifying! It sounds like a battery issue. I recommend checking your battery health in system settings and contacting support if the battery cycle count is high.”
+
+✅ Advantage: Feels natural, user-friendly, conversational.
+❌ Limitation: Slower resolution if customer wants instant answers.
+## **Comparison Table – Prompt Patterns**
+
+| Prompt Type                  | Strengths                       | Weaknesses                      | Best Use Case                       |
+| ---------------------------- | ------------------------------- | ------------------------------- | ----------------------------------- |
+| Straightforward Prompt       | Fast, efficient, simple         | Lacks context & personalization | Order tracking, FAQs                |
+| Tabular Format Prompting     | Clear, structured, detailed     | Less conversational             | Troubleshooting, product details    |
+| Preceding Question Prompting | Engaging, customer feels guided | Slower for urgent queries       | Complex or vague problem resolution |
+
+✅ **Conclusion:**
+
+* Use **Straightforward Prompts** for **quick tasks** (like order tracking).
+* Use **Tabular Prompts** for **troubleshooting or comparisons**.
+* Use **Preceding Question Prompts** for **complex or vague issues** to improve customer experience.
+
+### Result:
+The various types of Prompts are executed successfully with generated the report.
 
 
-### Conclusion
-Result: The various types of Prompts are executed successfully with generated the report.
 
 
-
-
-# Result: 
-Thus the Prompts were exected succcessfully.
 
